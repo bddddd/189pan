@@ -2,12 +2,12 @@
 
 [![签到状态](https://github.com/bddddd/189pan/actions/workflows/main.yml/badge.svg)](https://github.com/bddddd/189pan/actions/workflows/main.yml) [![项目主页](https://img.shields.io/badge/GitHub-项目主页-blue?logo=github)](https://github.com/bddddd/189pan)
 
-**最后更新:** 2025-11-04 10:54:59 CST
+**最后更新:** 2025-11-04 21:50:14 CST
 
 ## 快速导航
 
 - 🔄 [查看Action运行记录](https://github.com/bddddd/189pan/actions)
-- 📋 [查看最新运行](https://github.com/bddddd/189pan/actions/runs/19056251390)
+- 📋 [查看最新运行](https://github.com/bddddd/189pan/actions/runs/19070856574)
 - 🏠 [返回项目主页](https://github.com/bddddd/189pan)
 - ⚙️ [手动触发签到](https://github.com/bddddd/189pan/actions/workflows/main.yml)
 
@@ -16,22 +16,18 @@
 # 天翼云盘自动签到抽奖程序
 
 ## 执行概览
-- **启动时间**: 2025-11-04 10:54:59
+- **启动时间**: 2025-11-04 21:50:14
 - **账户数量**: 1 个
 
 ## 账户1
-第1次抽奖出错: HTTPSConnectionPool(host='m.cloud.189.cn', port=443): Read timed out. (read timeout=10)
+登录过程出错: HTTPSConnectionPool(host='open.e.189.cn', port=443): Max retries exceeded with url: /api/logbox/oauth2/autoLogin.do?appId=cloud&version=v1.1&clientType=20010&format=redirect&paras=047B7AE06B57C77A6C8C43DDF1362B01A37138681EE458356A5E83C8107BB73A3F8151DB3E2BD59F03C71C6869BE6610C63FD0FF669CE6DC5051D34C865250A997BD9E95F644C9F5A6DBA68AA80A0242CC9E4B52EC65D693CE524DE5082DD710E1F3C6CCAAC72ADAA567E035723A87BE9AF8FFFB3D5BDAC07111424D5C2A4BF9757EB0217FBB9066DE27CE3E1B17A749B2331D6BDE7774448FCE5F355477654C24C4EEAA5B4689C56538A4F5DBD7BAD2801ECA400CFD77E4473036A08CC4BA79B5E12F49E4944E4ADBB16C681A390E00E48295A5495342C5ED0706E67E99872363810B3E9F1798E0E8A2C64AF40EB8CC2AA63E24F95C573DC5752405010C57B73B2EB3CB7C5487BD01A32F8BD1353EBBA04DCDB3B9142BD78FFBC96CCBE282E9C10166510078C09A06AFFF85C1CBA41A3D6FD084D0E322CE00E4591D31C80512994F27CA993615A88E65750B6D1288E6EA4B4F64C8E1F47354DBC271E14980954BB96B9D61879F542F5FA71BCF4DD12B4BBB5A8847EDA8D4531586D800F2B6F29C56887D5970ABA947A06406EEBD705A0F96A199E0FEEA83172E98D55289AC4A5139D7A823ED9555B1311F7A1494631B04FFD5A967B164ABB42A6671129CC49184B7E6440804483980F652B06EBBAF4030050238D4120BBBECC32BD78C68103F894E1E28F25B3C54CB4FD60F0DFC9D918CCDC5B775044A058DDC2F60D275532BDB946CD732DD08C91BAB858B65C0254B36D79F9714360D95&sign=4F0CBF30A39D1A16270C1325EF268D3C03A9EF8F (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9fc356ca90>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
 ### 执行结果
-- **登录状态**: 登录成功
-- **签到结果**: 签到成功，获得0M空间
-- **抽奖结果**:
-  - ❌ 第1次: 抽奖出错: HTTPSConnectionPool(host='m.cloud.189.cn', port=443): Read timed out. (read timeout=10)
-  - ❌ 第2次: 抽奖失败，次数不足
-  - ❌ 第3次: 抽奖失败，次数不足
+- **登录状态**: 登录失败
+- **签到结果**: 
 
 ---
 ## 执行统计
-- **结束时间**: 2025-11-04 10:55:30
-- **运行时长**: 31.24 秒
+- **结束时间**: 2025-11-04 21:54:49
+- **运行时长**: 274.63 秒
 
 ✅ **所有账户处理完成！**
